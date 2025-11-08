@@ -34,6 +34,12 @@ const translations = {
         projetoSegundotexto:
             "Esse site possibilita o usuário a pesquisar filmes através de uma API e salva-los utilizando localstorage.",
 
+        projetoparagrafo: "Tecnologias:",
+
+        projetoInvestimentoTitulo: "Calculadora de Investimentos",
+        projetoInvestimentoTexto:
+            "Este projeto consiste em uma calculadora de investimentos desenvolvida em JavaScript, HTML e CSS. A ferramenta permite que o usuário simule a evolução de investimentos ao longo do tempo, visualizando os resultados em tabelas e gráficos.",
+
         projetoTerceirotitulo: "Landing Page Bootstrap",
         projetoTerceirotexto:
             "Landing page desenvolvida através do curso de programação frontend da hashtag treinamentos.",
@@ -55,6 +61,9 @@ const translations = {
             "Landing page desenvolvido em Sass com responsividade mobile.",
 
         projetoButaovermais: "Veja mais projetos",
+        projetoButaovermaisnft: "Veja mais NFTs",
+
+        pnft: "Aqui estão alguns dos NFTs que produzi enquanto trabalhava na Smobler e The Sandbox, voltados ao universo do metaverso e da blockchain — uma fusão entre arte, tecnologia e novas formas de expressão digital.",
 
         contactTitle: "Entre em contato",
         contactText:
@@ -104,6 +113,12 @@ const translations = {
         projetoSegundotexto:
             "This website allows the user to search for movies through an API and save them using localStorage.",
 
+        projetoparagrafo: "Technologies:",
+
+        projetoInvestimentoTitulo: "Investment Calculator",
+        projetoInvestimentoTexto:
+            "This project is an investment calculator developed using JavaScript, HTML, and CSS. The tool allows users to simulate the growth of their investments over time, displaying the results through tables and charts.",
+
         projetoTerceirotitulo: "Bootstrap Landing Page",
         projetoTerceirotexto:
             "Landing page developed during the frontend programming course at Hashtag Treinamentos.",
@@ -125,6 +140,9 @@ const translations = {
             "Landing page developed with Sass and mobile responsiveness.",
 
         projetoButaovermais: "See more projects",
+        projetoButaovermaisnft: "See more NFTs",
+
+        pnft: "Here are some of the NFTs I created while working at Smobler and The Sandbox, focused on the universe of the metaverse and blockchain — a fusion of art, technology, and new forms of digital expression.",
 
         contactTitle: "Get in touch",
         contactText:

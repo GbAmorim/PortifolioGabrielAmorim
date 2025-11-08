@@ -1,8 +1,4 @@
 @media all and (max-width: 1035px) {
-    .projects__container {
-        width: 70vw;
-        ;
-    }
 
     .sobre {
         display: flex;

@@ -550,6 +550,10 @@
 
 /* SESSÃO PROJETOS */
 
+#sessao-projeto {
+    height: auto;
+}
+
 /* 1. Estilos Globais da Seção */
 .project-detail-section {
     display: flex;
@@ -682,6 +686,10 @@
 
 /* SESSÃO NFT */
 
+#sessao-nft {
+    height: auto;
+}
+
 .nft {
     display: flex;
     align-items: center;
@@ -694,6 +702,12 @@
 
 .swiper {
     margin-bottom: 5rem;
+}
+
+.p-nft {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-wrapper {
@@ -755,12 +769,27 @@
 @media screen and (max-width: 768px) {
     .card-wrapper {
         margin: 0 10px 25px;
+        padding: 10px 5px;
     }
 
     .card-wrapper .swiper-slide-button {
         display: none;
     }
+
+    .card-list .card-item .card-link {
+        padding: 10px;
+    }
+
+    .card-list .card-link .card-image {
+        aspect-ratio: 1/1;
+    }
+
+    .p-nft {
+        margin: 2rem;
+        text-align: center;
+    }
 }
+
 
 /* SESSÃO CONTATO */
 

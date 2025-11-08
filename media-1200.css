@@ -1,8 +1,4 @@
 @media all and (max-width: 75em) {
-    .projects__container {
-        width: 70vw;
-        ;
-    }
 
     .card .card-content {
         padding: 15px;

@@ -15,8 +15,7 @@
     }
 
     #sessao-projetos {
-        width: 100dvw;
-        height: 100dvh;
+        width: auto;
         margin-top: 1400px;
     }
 

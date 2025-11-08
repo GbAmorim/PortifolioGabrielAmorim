@@ -8,6 +8,7 @@
         content="Portfólio profissional de Gabriel Amorim, desenvolvedor frontend. Veja projetos, habilidades e entre em contato.">
     <link rel="icon" type="image/png" sizes="512x512" href="/images/iconeaba.png">
     <title> Gabriel Amorim - Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
         href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&family=Silkscreen:wght@400;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
     <link rel="stylesheet" href="media-1900.css" media="(max-width: 1900px)">
     <link rel="stylesheet" href="media-1400.css" media="(max-width: 1400px)">
@@ -26,6 +27,8 @@
     <link rel="stylesheet" href="media-992.css" media="(max-width: 1035px)">
     <link rel="stylesheet" href="media-768.css" media="(max-width: 768px)">
     <link rel="stylesheet" href="media-480.css" media="(max-width: 480px)">
+
+
 
     <script type="text/javascript" src="darkmode.js" defer></script>
 </head>
@@ -348,6 +351,37 @@
 
             <div class="projects__grid">
 
+                <div class="project-detail-section">
+                    <div class="project-media">
+                        <span class="tag" data-translate="projetoPessoal">Projeto Pessoal</span>
+                        <img src="/images/projeto9.png" alt="Projeto de Investimentos" loading="lazy" />
+                    </div>
+                    <div class="project-info">
+                        <h1 data-translate="projetoInvestimentoTitulo">Calculadora de Investimentos</h1>
+                        <p class="description" data-translate="projetoInvestimentoTexto">
+                            Este projeto consiste em uma calculadora de investimentos desenvolvida em JavaScript, HTML e
+                            CSS. A ferramenta permite que o usuário simule a evolução de investimentos ao longo do
+                            tempo, visualizando os resultados em tabelas e gráficos.
+                        </p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
+                        <div class="project-technologies">
+                            <img src="/icons/tailwind.svg" alt="Tailwind" width="32" height="32">
+                            <img src="/icons/javascript.svg" alt="JavaScript" width="32" height="32">
+
+
+
+
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://projeto-calculadora-investimentos-lake.vercel.app/"
+                                class="btn-link live-demo" data-translate="projetoButao">LIVE DEMO ↗</a>
+                            <a href="https://github.com/GbAmorim/projetoCalculadoraInvestimentos" target="_blank"
+                                class="btn-link github">Github</a>
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- Projeto 1 -->
                 <div class="project-detail-section">
                     <div class="project-media">
@@ -361,7 +395,7 @@
                             Sistema de autoatendimento, como aqueles do Mc Donald's e Burger King, onde você chega e faz
                             o seu pedido sem falar com o atendente.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/tailwind.svg" alt="Tailwind" width="32" height="32">
                             <img src="/icons/typescript-white.svg" alt="TypeScript" width="32" height="32">
@@ -391,7 +425,7 @@
                             Esse site possibilita o usuário a pesquisar filmes através de uma API e salvá-los utilizando
                             localStorage.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/css.svg" alt="CSS" width="32" height="32">
                             <img src="/icons/javascript.svg" alt="JavaScript" width="32" height="32">
@@ -417,7 +451,7 @@
                         <p class="description" data-translate="projetoTerceirotexto">
                             Landing page desenvolvida através do curso de programação frontend da Hashtag Treinamentos.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/bootstrap.svg" alt="Bootstrap" width="32" height="32">
                             <img src="/icons/htmlicon.svg" alt="HTML" width="32" height="32">
@@ -443,7 +477,7 @@
                             Site desenvolvido no curso de programação da Hashtag Treinamentos, feito apenas em CSS e
                             HTML.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/css.svg" alt="CSS" width="32" height="32">
                             <img src="/icons/htmlicon.svg" alt="HTML" width="32" height="32">
@@ -469,7 +503,7 @@
                             Essa aplicação te ajuda a encontrar as informações mais relevantes sobre cada carta, desde a
                             descrição até o motivo de ela ser tão icônica.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/css.svg" alt="CSS" width="32" height="32">
                             <img src="/icons/javascript.svg" alt="JavaScript" width="32" height="32">
@@ -495,7 +529,7 @@
                         <p class="description" data-translate="projetoSextotexto">
                             Esse sistema visa o agendamento de barbeiros pelos clientes, de forma simples e prática.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/typescript-white.svg" alt="TypeScript" width="32" height="32">
                             <img src="/icons/react.svg" alt="React" width="32" height="32">
@@ -523,7 +557,7 @@
                         <p class="description" data-translate="projetoSetimotexto">
                             Landing page desenvolvido em Sass com responsividade mobile.
                         </p>
-                        <p>Tecnologias:</p>
+                        <p data-translate="projetoparagrafo">Tecnologias:</p>
                         <div class="project-technologies">
                             <img src="/icons/sass.svg" alt="Sass" width="32" height="32">
                             <img src="/icons/htmlicon.svg" alt="HTML" width="32" height="32">
@@ -545,104 +579,240 @@
         </section>
 
         <!-- SESSÃO NFT -->
-        <section class="nft" id="sessao-nft">
+        <section class="section nft" id="sessao-nft">
             <h2 class="nft-titulo">NFTs</h2>
-            <div class="swiper">
+            <p class="p-nft" data-translate="pnft">Aqui estão alguns dos NFTs que produzi enquanto trabalhava na Smobler
+                e The Sandbox, voltados ao universo
+                do metaverso e da blockchain — uma fusão entre arte, tecnologia e novas formas de expressão digital.</p>
+            <div class="container swiper">
                 <div class="card-wrapper ">
                     <ul class="card-list swiper-wrapper">
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render1.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render2.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render3.jpg" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render4.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render5.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render6.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render7.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render8.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/sherlock_holmes1.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/William1.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render12.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render5.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/Mary1.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render13.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images//render15.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render16.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images//render18.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render21.png" alt="" class="card-image">
                             </a>
                         </li>
                         <li class="card-item swiper-slide">
-                            <a href="" class="card-link">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
                                 <img src="images/render25.png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (1).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (2).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (3).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (4).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (5).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/r (6).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (1).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (2).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (3).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (4).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (5).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (6).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/l (7).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (1).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (2).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (3).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (4).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (5).png" alt="" class="card-image">
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="https://www.sandbox.game/en/users/gabrielamorim/" class="card-link"
+                                target="_blank">
+                                <img src="images/N (6).png" alt="" class="card-image">
                             </a>
                         </li>
                     </ul>
@@ -654,14 +824,15 @@
 
             </div>
 
-            <a href="https://github.com/GbAmorim" target="_blank">
-                <button class="button" data-translate="projetoButaovermais">Veja mais projetos</button>
+
+            <a href="https://www.instagram.com/rarami_voxelart/" target="_blank">
+                <button class="button" data-translate="projetoButaovermaisnft">Veja mais NFTs</button>
             </a>
         </section>
 
         <!-- SESSÃO CONTATO -->
 
-        <section class="contato" id="contato">
+        <section class="contato section" id="contato">
             <a href="index.html"><img src="/images/logoblack.svg" alt="Logo escuro" height="100px" width="100px"
                     loading="lazy"></a>
             <div class="contato-container">
@@ -724,9 +895,9 @@
             </div>
         </footer>
     </main>
-
-    <script src="translations.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="translations.js"></script>
+
     <script src="projects.js" defer></script>
     <script src="script.js" defer></script>
 
